@@ -4,6 +4,7 @@ import 'package:emart_seller/views/widgets/text_style.dart';
 
 Widget customTextField({label, hint, controller, isDesc = false}){
   return TextFormField(
+    style: TextStyle(color: white),
     maxLines: isDesc ? 4: 1,
     decoration: InputDecoration(
       isDense: true,
